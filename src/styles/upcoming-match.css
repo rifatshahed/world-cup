@@ -1,0 +1,207 @@
+/* font stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap');
+
+/* common styles or utilities */
+.container{
+    width: 80%; 
+    
+}
+
+
+
+/* header section styles */
+.header-text{
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    margin-bottom: 60px;
+    margin-right: 10%;
+}
+#header-text-heading{
+    font-weight: 700;
+    font-size:3em;
+    line-height: 60px;
+    color: #ffffff;
+}
+#header-text-para{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 26px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    margin-top: -10px;
+}
+#header-text-btn{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    gap: 10px;
+    border-radius: 5px;
+}
+.header-image img{
+    width: 90%;
+    height: 460px;
+
+}
+.fa-greater-than{
+    margin-left: 10px;
+}
+
+.figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-section{
+    width:80%;
+    display: flex;
+    margin-left: 140px;
+    background-color: #161616;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding-right: 20px;
+    
+}
+
+
+/* main section styles */
+
+/* left side styles */
+.left-side-box{
+    margin-left: 500px;
+    background-color: #161616;
+    width: 312px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
+
+.left-side{
+    margin-left: 30px;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+#left-side-first-btn{
+    color: #ffffff;
+    background-color: #DD0000;
+    margin-top: 20px;
+    border: none;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#left-side-second-btn{
+    background-color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#left-side-third-btn{
+    background-color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* right side styles */
+.right-side{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    
+}
+ .right-side-matches{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #E8E8E8;
+    padding-right: 50px;
+ } 
+
+.right-side-image{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding-right: 10px;
+}
+.right-side-image span{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.right-side-text{
+    
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-right: 10px;
+
+}
+#right-side-text-para-one{
+    margin-left: 25px;
+    font-size: 14px;
+}
+#right-side-text-para-two{
+    margin-left: 40px;
+    font-size: 5px;
+}
+
+
+/* footer styles */
+.footer-section{
+    width: 1340px;
+    height: 444px;
+    background-color: #161616;
+    text-align: center;
+}
+#footer-section-heading{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 150px;
+}
+hr{
+    width: 80%;
+    margin-bottom: 50px;
+    color: #ffffff;
+    opacity: 10%;
+}
+
+#footer-section-para{
+    color: #B9B9B9;
+    opacity: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+
+.facebook{
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.instagram{
+    margin-right: 20px;
+    margin-top: 60px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.twitter{
+    margin-right: 20px;
+    margin-top: 60px;
+    font-size: 30px;
+    color: aliceblue;
+}
